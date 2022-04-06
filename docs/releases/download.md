@@ -7,11 +7,13 @@ title: 下载安装
 
 ## 环境要求
 
-Windows 10 1809 及以上版本，建议升级到最新版本。
+Windows 10 1809 及以上版本（最低版本出自微软文档，可靠性未知），建议升级到最新版以避免可能出现的各种问题。
+
+升级 [应用安装程序](https://www.microsoft.com/zh-cn/store/productId/9NBLGGH4NNS1) 至最新版本。
 
 ## 下载
 
-通过以下链接下载最新版本：
+通过以下链接下载最新版本安装包：
 
 [线路一](https://file.xunkong.cc/download/desktop/Xunkong.Desktop.Package.zip)
 

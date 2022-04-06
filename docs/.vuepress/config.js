@@ -7,7 +7,9 @@ module.exports = {
     theme: '@vuepress/theme-default',
     themeConfig: {
         logo: '/images/logo.64.webp',
-        repo: 'https://github.com/Scighost/Xunkong-Docs',
+        repo: 'https://github.com/Scighost/Xunkong',
+        docsRepo: 'https://github.com/Scighost/Xunkong-Docs',
+        docsDir: 'docs',
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdatedText: '上次更新',
         contributorsText: '贡献者',
