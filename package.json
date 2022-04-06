@@ -1,0 +1,15 @@
+{
+  "name": "xunkong-docs",
+  "version": "1.0.0",
+  "description": "This is document of Xunkong.",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "Scighost",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.37"
+  }
+}
