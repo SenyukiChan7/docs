@@ -50,6 +50,22 @@ module.exports = {
                         '/releases/history/preview',
                     ]
                 }
+            ],
+            '/help/': [
+                {
+                    text: '帮助',
+                    children: [
+                        '/help/',
+                        '/help/account',
+                        '/help/dailynote',
+                        '/help/wishlog',
+                        '/help/travelnotes',
+                        '/help/webtool',
+                        '/help/startgame',
+                        '/help/wallpaper',
+                        '/help/maptool',
+                    ]
+                }
             ]
         },
 
