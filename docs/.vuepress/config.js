@@ -18,16 +18,11 @@ module.exports = {
         navbar: [
             {
                 text: '下载',
-                children: [
-                    {
-                        text: '下载安装',
-                        link: '/release/download'
-                    },
-                    {
-                        text: '历史版本',
-                        link: '/release/history/'
-                    }
-                ]
+                link: '/release/download'
+            },
+            {
+                text: '更新记录',
+                link: '/release/history/'
             },
             {
                 text: '帮助',
@@ -45,7 +40,7 @@ module.exports = {
             ],
             '/release/history/': [
                 {
-                    text: '历史版本',
+                    text: '更新记录',
                     children: [
                         '/release/history/',
                         '/release/history/stable',
