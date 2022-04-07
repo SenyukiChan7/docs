@@ -1,5 +1,16 @@
 # 预览版
 
+### 0.1.6.0 文档来喽
+
+[下载](https://file.xunkong.cc/download/desktop/Xunkong.Desktop.Package_0.1.6.0_x64.msixbundle)
+2022-04-07 12:22:04
+
+::: details 更新内容
+- 新增帮助文档
+- 增加预缓存图片的下载线程
+- 修复添加多账号时的错误 [#72](https://github.com/Scighost/Xunkong/issues/72)
+:::
+
 ### 0.1.5.2 修复小地图快捷键，支持空荧酒馆
 
 [下载](https://file.xunkong.cc/download/desktop/Xunkong.Desktop.Package_0.1.5.2_x64.msixbundle)
