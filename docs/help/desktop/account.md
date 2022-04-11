@@ -6,11 +6,15 @@
 
 ## 通过 Cookie 添加账号
 
-- 把右侧的文字拖入浏览器书签栏 <a href="javascript:(()=>{getCookie=(cookie_name)=>{for(i in(cookies=document.cookie.split(';'))){if(cookies[i].split('=')[0].trim()==cookie_name)return true}return false};if(getCookie('cookie_token')&&getCookie('account_id')){navigator.clipboard.writeText(document.cookie);alert('Cookie 已复制到剪贴板。')}else{alert('没有找到 cookie_token 和 account_id，请重新登录!')}})();">获取米游社 Cookie</a>
+- 把右侧的文字拖入浏览器书签栏 <a href="javascript:(()=>{if(location.host.includes('bbs.mihoyo.com')){var cookie=document.cookie;if(cookie.includes('cookie_token')&&cookie.includes('account_id')){navigator.clipboard.writeText(cookie);alert('Cookie 已复制到剪贴板')}else{alert('没有找到 cookie_token 和 account_id，请重新登录')}}else{alert('当前网页不为米游社页面')}})();">获取米游社 Cookie</a>
 - 使用浏览器的**无痕模式**打开 [米游社·原神](https://bbs.mihoyo.com/ys/)页面
 - 登录您需要添加到寻空中的账号
 - 点击之前添加的书签，此时 Cookie 已被复制到剪贴板
-- 在寻空中点击 **添加账号** -> **输入 Cookie**，粘贴上述过程中复制的内容并点击确认
+- 在寻空中点击 **添加账号 > 输入 Cookie**，粘贴上述过程中复制的内容并点击确认
+
+## 签到
+
+0.1.7.0 版本开始，启动应用时会自动签到，签到失败有横幅提醒，若已签到则不会重复签到。
 
 ## 常见问题
 
@@ -32,21 +36,18 @@
 
 ## 书签内容
 
-Copy from [SnapGenshin](https://snapgenshin.com/documents/features/mhy-account-switch.html#如何获取-cookie)
-
 ``` js
 javascript: (() => {
-    getCookie = (cookie_name) => {
-        for (i in (cookies = document.cookie.split(';'))) {
-            if (cookies[i].split('=')[0].trim() == cookie_name)
-                return true;
+    if (location.host.includes('bbs.mihoyo.com')) {
+        var cookie = document.cookie;
+        if (cookie.includes('cookie_token') && cookie.includes('account_id')) {
+            navigator.clipboard.writeText(cookie);
+            alert('Cookie 已复制到剪贴板');
+        } else {
+            alert('没有找到 cookie_token 和 account_id，请重新登录');
         }
-        return false;
-    };
-    if (getCookie('cookie_token') && getCookie('account_id')) {
-        navigator.clipboard.writeText(document.cookie);
-        alert('Cookie 已复制到剪贴板。');
     } else {
-        alert('没有找到 cookie_token 和 account_id，请重新登录!');
-    }})();
+        alert('当前网页不为米游社页面');
+    }
+})();
 ```

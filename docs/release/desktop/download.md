@@ -1,8 +1,3 @@
----
-lang: zh-CN
-title: 下载安装
----
-
 # 下载安装
 
 ## 环境要求
@@ -15,7 +10,7 @@ Windows 10 1809 及以上版本（最低版本出自微软文档，可靠性未�
 
 通过以下链接下载最新版本安装包：
 
-[线路一](https://file.xunkong.cc/download/desktop/Xunkong.Desktop.Package.zip)
+[线路一](https://file.xunkong.cc/download/desktop/package/Xunkong.Desktop.Package.zip)
 
 [线路二](https://scighost-generic.pkg.coding.net/xunkong/releases/Xunkong.Desktop.Package.zip)
 
@@ -29,7 +24,7 @@ Windows 10 1809 及以上版本（最低版本出自微软文档，可靠性未�
 
 ## 后续
 
-后续的使用教程请浏览[帮助部分](../help/index.md)。
+后续的使用教程请浏览 [帮助部分](../../help/desktop/index.md)。
 
 ## 可能遇到的问题
 
@@ -44,5 +39,5 @@ Windows 10 1809 及以上版本（最低版本出自微软文档，可靠性未�
 以 MSIX 打包的应用安装在 `C:\Program Files\WindowsApps` 文件夹内。
 
 ::: tip 提示
-推荐使用深色模式，视觉效果更好。
+使用深色模式视觉效果更佳
 :::

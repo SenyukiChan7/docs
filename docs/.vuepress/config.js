@@ -18,49 +18,42 @@ module.exports = {
         navbar: [
             {
                 text: '下载',
-                link: '/release/download'
-            },
-            {
-                text: '更新记录',
-                link: '/release/history/'
+                link: '/release/desktop/download'
             },
             {
                 text: '帮助',
-                link: '/help/'
+                link: '/help/desktop/'
             }
         ],
 
         sidebar: {
-            '/release/download': [
+            '/release/': [
                 {
+                    text: '主项目',
+                    collapsible: true,
                     children: [
-                        '/release/download',
-                    ]
-                }
-            ],
-            '/release/history/': [
-                {
-                    text: '更新记录',
-                    children: [
-                        '/release/history/',
-                        '/release/history/stable',
-                        '/release/history/preview',
+                        '/release/desktop/download',
+                        '/release/desktop/history/',
+                        '/release/desktop/history/stable',
+                        '/release/desktop/history/preview',
                     ]
                 }
             ],
             '/help/': [
                 {
                     text: '帮助',
+                    collapsible: true,
                     children: [
-                        '/help/',
-                        '/help/account',
-                        '/help/dailynote',
-                        '/help/wishlog',
-                        '/help/travelnotes',
-                        '/help/webtool',
-                        '/help/startgame',
-                        '/help/wallpaper',
-                        '/help/maptool',
+                        '/help/desktop/',
+                        '/help/desktop/account',
+                        '/help/desktop/dailynote',
+                        '/help/desktop/wishlog',
+                        '/help/desktop/travelnotes',
+                        '/help/desktop/spiralabyss',
+                        '/help/desktop/webtool',
+                        '/help/desktop/startgame',
+                        '/help/desktop/wallpaper',
+                        '/help/desktop/maptool',
                     ]
                 }
             ]
