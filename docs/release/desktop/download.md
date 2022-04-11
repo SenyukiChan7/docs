@@ -8,7 +8,7 @@ Windows 10 1809 及以上版本（最低版本出自微软文档，可靠性未�
 
 ## 下载
 
-通过以下链接下载最新版本安装包：
+通过以下链接下载最新版本的完整安装包：
 
 [线路一](https://file.xunkong.cc/download/desktop/package/Xunkong.Desktop.Package.zip)
 
