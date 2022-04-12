@@ -1,11 +1,11 @@
 # 当前版本
 
+> 如果出现安装失败的问题，请下载最新版的 [完整安装包](../download.md)，然后使用 PowerShell 安装。
+
 ## 0.1.7.0 咕咕咕 <Badge text="预览版" type="warning" vertical="middle" />
 
 [下载](https://file.xunkong.cc/download/desktop/package/Xunkong.Desktop.Package_0.1.7.0_x64.msixbundle)
 2022-04-11 16:48:28
-
-> 如果出现安装失败的问题，请下载最新版的 [完整安装包](../download.md)，然后使用 PowerShell 安装。
 
 咕了这么久的祈愿记录导出功能终于来喽，同时也增加了表格预览的功能，这次使用了 Syncfusion 的表格控件，功能很强大性能很糟糕，每1000条记录加载需要1.5s，所以默认不开启表格显示。
 

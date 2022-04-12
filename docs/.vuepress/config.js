@@ -37,6 +37,13 @@ module.exports = {
                         '/release/desktop/history/stable',
                         '/release/desktop/history/preview',
                     ]
+                },
+                {
+                    text: '独立工具',
+                    collapsible: true,
+                    children: [
+                        '/release/tool/travelnotesgenerator',
+                    ]
                 }
             ],
             '/help/': [
