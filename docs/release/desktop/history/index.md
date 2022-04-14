@@ -4,7 +4,7 @@
 
 ## 0.1.7.0 咕咕咕 <Badge text="预览版" type="warning" vertical="middle" />
 
-[下载](https://file.xunkong.cc/download/desktop/package/Xunkong.Desktop.Package_0.1.7.0_x64.msixbundle)
+[下载](https://file.xunkong.cc/download/package/Xunkong.Desktop.Package_0.1.7.0_x64.msixbundle)
 2022-04-11 16:48:28
 
 咕了这么久的祈愿记录导出功能终于来喽，同时也增加了表格预览的功能，这次使用了 Syncfusion 的表格控件，功能很强大性能很糟糕，每1000条记录加载需要1.5s，所以默认不开启表格显示。
@@ -28,3 +28,9 @@
   - 祈愿记录页面的元数据更新提醒（启动应用后会自动更新）
 - 更改
   - 点击更新提醒的下载按键后不再直接下载文件，而是打开此页面
+
+### 已知问题
+
+- 深境螺旋页面最多击破数显示错误 [#78](https://github.com/Scighost/Xunkong/issues/78)
+- 深境螺旋 1-8 层数据仍会显示在战斗数据中
+
