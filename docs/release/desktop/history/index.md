@@ -7,6 +7,9 @@
 [下载](https://file.xunkong.cc/download/package/Xunkong.Desktop.Package_0.1.7.1_x64.msixbundle)
 2022-04-15 19:34:36
 
+> MD5: AE9CD89762F4B2585285632AB4377EA8
+
+
 ### 更新内容
 
 - 修复
