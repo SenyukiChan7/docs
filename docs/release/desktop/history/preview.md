@@ -1,4 +1,30 @@
+---
+sidebarDepth: 1
+---
+
 # 更新记录（预览版）
+
+## 0.1.x
+
+2022-03-07 ~ 2022-04-15
+
+<details>
+<summary>版本详细内容</summary>
+
+### 0.1.7.1 赶在深渊更新前
+
+[下载](https://file.xunkong.cc/download/package/Xunkong.Desktop.Package_0.1.7.1_x64.msixbundle)
+2022-04-15 19:34:36
+
+> MD5: AE9CD89762F4B2585285632AB4377EA8
+
+::: details 详细信息
+### 更新内容
+
+- 修复
+  - 深境螺旋页面最多击破数显示错误 [#78](https://github.com/Scighost/Xunkong/issues/78)
+  - 深境螺旋 1-8 层数据不再显示在战斗数据中
+:::
 
 ### 0.1.7.0 咕咕咕
 
@@ -93,3 +119,5 @@
 
 [下载](https://file.xunkong.cc/download/package/Xunkong.Desktop.Package_0.1.0.0_x64.msixbundle)
 2022-03-07 21:17:50
+
+</details>
