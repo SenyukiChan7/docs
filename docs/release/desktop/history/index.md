@@ -4,7 +4,8 @@
 
 ## 0.2.0.0 版本号+1 <Badge text="正式版" vertical="middle" />
 
-[下载](https://file.xunkong.cc/download/package/Xunkong.Desktop.Package_0.2.0.0_x64.msixbundle)
+[线路一](https://file.xunkong.cc/download/package/Xunkong.Desktop.Package_0.2.0.0_x64.msixbundle)
+[线路二](https://scighost-generic.pkg.coding.net/xunkong/releases/Xunkong.Desktop.Package_0.2.0.0_x64.msixbundle)
 2022-04-19 11:06:02
 
 > MD5: 0BC1058BCA799E90495C106B877EDF1F
