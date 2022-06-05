@@ -10,7 +10,7 @@ Windows 10 1809 及以上版本（最低版本出自微软文档，可靠性未�
 
 通过以下链接下载最新版本的完整安装包：
 
-> MD5: 9E34D6F5C6659A1E76E1F1C852934A14
+> MD5: 0D452F96C34BD22CA4FFDB6EDE4F81C8
 
 [线路一](https://file.xunkong.cc/download/package/Xunkong.Desktop.Package.zip)
 
