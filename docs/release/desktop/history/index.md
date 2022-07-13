@@ -2,37 +2,69 @@
 
 > 如果出现安装失败的问题，请下载最新版的 [完整安装包](../download.md)，然后使用 PowerShell 安装。
 
-## 0.2.0.2 《大的要来了》 <Badge text="正式版" vertical="middle" />
+## 1.0.0 一定要更新 <Badge text="侧载版" vertical="middle" />
 
-[线路一](https://file.xunkong.cc/download/package/Xunkong.Desktop.Package_0.2.0.2_x64.msixbundle)
-[线路二](https://scighost-generic.pkg.coding.net/xunkong/releases/Xunkong.Desktop.Package_0.2.0.2_x64.msixbundle)
-2022-06-28 11:15:23
+::: tip 提示
+新版本更新了图标和包ID，安装后派蒙头的寻空仍会存在并停留在 0.2.0.2 版本
+:::
 
-> SHA256: A71270FCF11C0C504C93A2F68331AEB3C5C1028973DDBE597B9FBD6C7A21E3E9
+::: warning 警告
+**更新前请下载并运行** [数据库迁移工具](https://file.xunkong.cc/download/tool/DatabaseMigration.zip)
+:::
 
-系统升级到 Windows 11 后，磁贴和快速启动都没了，所以又写了两个小工具解决这个问题。
+[下载链接](https://file.xunkong.cc/download/package/Xunkong.Desktop.Package_1.0.0.0_x64.msixbundle)
+2022-07-13 10:09:23
 
-#### 寻空小组件
+SHA256: BA7949C1538FA2B65E7C5F8DF9715ACA50B423C1AE3BEAAA6D5CDD787E5109AF
 
-另一个实时便笺，支持磁贴和Xbox小组件
 
-[下载链接](https://www.microsoft.com/store/apps/9PHN021FKW2T)
-[项目地址](https://github.com/xunkong/widget)
+> 微软商店的审核不知道多久才能过，所以赶在更新前把侧载版放出来。
 
-#### 简单启动器
+这段时间对所有代码进行了一次整体重构，砍掉了一些无用的功能，同时得益于 WindowsAppSDK 的更新，感觉性能提升了一大截，列表滚动终于不卡了。
 
-快速启动的代替品
+<hr />
 
-[下载链接](https://file.xunkong.cc/download/tool/SimpleLauncher.zip)
-[项目地址](https://github.com/xunkong/SimpleLauncher)
+这次更新的最主要的目的是提升性能，为此率先删除了应用内的背景图，改为使用云母效果，在不支持云母的 Win10 上使用纯色背景，感谢 [Snap Genshin](https://www.snapgenshin.com/) 开发者 [DismissedLight](https://github.com/Lightczx) 提供的帮助。
+
+然后极大程度地简化了应用启动时的初始化过程，把冷启动时间压到了 3s 左右。
+
+同时也删掉了小地图、工具箱等难以维护或有更好的替代品的功能，微调了角色信息和深境螺旋页面的布局，应该不会再超出窗口范围了。
+
+<hr />
+
+在 [即将砍掉的一些功能](https://github.com/xunkong/desktop/issues/108) 的楼内反馈中，大部分人都提到了希望保留每日一图的功能，其实我没想过完全删除这个功能。~~（这可是分享XP的好机会）~~
+
+更新后的版本中，每日推荐的图片改为在主页面显示，并且不再实时下载新图，而是使用上一次已下载完成的图片，基本上不会再出现白屏几秒的情况了。
+
+默认实时更新主页的图片，在我精心挑选的几百张图片中随机选择，量大管饱。
+
+~~XP放出：第一次启动时显示我最喜欢的一张图（她们太般配了啊！！！）~~
+
+也因为图片不再铺满整个窗口，所以参考[云之幻](https://github.com/Richasy)的[哔哩](https://github.com/Richasy/Bili.Uwp)写了一个图片查看器，让你能够明察图片的每一个细节。
+
+<hr />
+
+为了提高应用的可维护性，新版本重新设计了数据库结构，把个人数据和通用的原神数据分开存储，文件位置也改为了`我的文档\Xunkong\Database`，**一定要在首次启动前迁移数据库**。
+
+新版本发布得比较仓促，一部分功能还没来得及加上，会在以后的版本中陆续补全。商店的审核确实很慢，每次都要等上一两天，所以更新频率更快的侧载版仍会持续发布新版本。
 
 ### 更新内容
 
-- 更新 WindowsAppSDK
-- 尝试修复快速启动的问题
-
-### 接下来
-
-为了提高性能，减少维护负担，将会逐步砍掉一些功能，然后简化数据库结构。
-
-[即将砍掉的功能](https://github.com/xunkong/desktop/issues/108)
+- 新增
+  - 重新设计的主页面
+  - 体验更好的图片查看器
+  - 网页登陆的方式添加账号（这个功能终于来了）
+  - 隐私策略 ~~（自动生成的模板）~~
+- 修改
+  - 应用图标和包标识
+  - WindowsAppSDK 1.1.2 以及其他依赖包
+  - 简化了导航栏上方的便笺内容
+  - 导航栏的图标颜色
+  - 优化角色信息和深境螺旋界面的布局
+- 删除
+  - App Center 用户统计
+  - 应用内背景图
+  - 寻空小地图
+  - 工具箱页面
+  - 使用后台任务的定时签到（启动应用时的签到仍保留）
+  - 应用内通知（改为主页横幅）

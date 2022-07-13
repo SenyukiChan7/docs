@@ -10,11 +10,9 @@ Windows 10 1809 及以上版本（最低版本出自微软文档，可靠性未�
 
 通过以下链接下载最新版本的完整安装包：
 
-> MD5: 0D452F96C34BD22CA4FFDB6EDE4F81C8
+> SHA256: A8873D8C2709EC152ACB26009DC09F34DFF37F95665A04FCC2D6C022C6C54952
 
-[线路一](https://file.xunkong.cc/download/package/Xunkong.Desktop.Package.zip)
-
-[线路二](https://scighost-generic.pkg.coding.net/xunkong/releases/Xunkong.Desktop.Package.zip)
+[完整安装包](https://file.xunkong.cc/download/package/Xunkong.Desktop.Package.zip)
 
 ## 安装
 
