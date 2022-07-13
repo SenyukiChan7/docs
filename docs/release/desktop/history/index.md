@@ -10,12 +10,14 @@
 
 ::: warning 警告
 **更新前请下载并运行** [数据库迁移工具](https://file.xunkong.cc/download/tool/DatabaseMigration.zip)
+
+如果提示**迁移后的数据库已存在**，请删除文件 `我的文档\Xunkong\Database\XunkongData.db`
 :::
 
 [下载链接](https://file.xunkong.cc/download/package/Xunkong.Desktop.Package_1.0.0.0_x64.msixbundle)
 2022-07-13 10:09:23
 
-SHA256: BA7949C1538FA2B65E7C5F8DF9715ACA50B423C1AE3BEAAA6D5CDD787E5109AF
+SHA256: 2CF1449012CD4205D1A40BEC9FD6D29F2E154D5EEF210643E63C3ADC109107C9
 
 
 > 微软商店的审核不知道多久才能过，所以赶在更新前把侧载版放出来。

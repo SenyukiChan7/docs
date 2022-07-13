@@ -10,7 +10,7 @@ Windows 10 1809 及以上版本（最低版本出自微软文档，可靠性未�
 
 通过以下链接下载最新版本的完整安装包：
 
-> SHA256: A8873D8C2709EC152ACB26009DC09F34DFF37F95665A04FCC2D6C022C6C54952
+> SHA256: 31BE09DFAFAB3381127D8929A963E5F039DEB901472A9E1F3DE3FF0F052C21B2
 
 [完整安装包](https://file.xunkong.cc/download/package/Xunkong.Desktop.Package.zip)
 
