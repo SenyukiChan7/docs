@@ -2,7 +2,7 @@
 
 > 如果出现安装失败的问题，请下载最新版的 [完整安装包](../download.md)，然后使用 PowerShell 安装。
 
-## 1.0.0 一定要更新 <Badge text="侧载版" vertical="middle" />
+## 1.0.0 请一定要更新 <Badge text="侧载版" vertical="middle" />
 
 ::: tip 提示
 新版本更新了图标和包ID，安装后派蒙头的寻空仍会存在并停留在 0.2.0.2 版本

@@ -63,8 +63,6 @@ module.exports = {
                         '/help/desktop/spiralabyss',
                         '/help/desktop/webtool',
                         '/help/desktop/startgame',
-                        '/help/desktop/wallpaper',
-                        '/help/desktop/maptool',
                     ]
                 }
             ]

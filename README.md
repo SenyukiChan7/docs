@@ -1,6 +1,6 @@
 # 寻空的文档
 
-主项目地址 [Scighost/Xunkong](https://github.com/Scighost/Xunkong)
+主项目地址 [xunkong/desktop](https://github.com/xunkong/desktop)
 
 ### PR 规范
 
