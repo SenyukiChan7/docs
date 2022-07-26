@@ -63,6 +63,7 @@ module.exports = {
                         '/help/desktop/spiralabyss',
                         '/help/desktop/webtool',
                         '/help/desktop/startgame',
+                        '/help/desktop/database-migration',
                     ]
                 }
             ]
