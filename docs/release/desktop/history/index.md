@@ -1,6 +1,8 @@
 # 当前版本
 
-> 如果出现安装失败的问题，请下载最新版的 [完整安装包](../download.md)，然后使用 PowerShell 安装。
+::: warning 提示
+此页面已过时，请查看 [下载页面](../download.md) 了解最新信息
+:::
 
 ## 1.0.0 请一定要更新 <Badge text="侧载版" vertical="middle" />
 

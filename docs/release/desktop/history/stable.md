@@ -1,5 +1,9 @@
 # 更新记录（正式版）
 
+::: warning 提示
+此页面已过时，请查看 [GitHub Release](https://github.com/xunkong/xunkong/releases) 了解最新信息
+:::
+
 ## 0.2.0.2 《大的要来了》 <Badge text="正式版" vertical="middle" />
 
 [线路一](https://file.xunkong.cc/download/package/Xunkong.Desktop.Package_0.2.0.2_x64.msixbundle)
