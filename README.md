@@ -1,6 +1,6 @@
-# 寻空的文档
+# 帮助文档
 
-主项目地址 [xunkong/desktop](https://github.com/xunkong/desktop)
+[主项目地址](https://github.com/xunkong/xunkong)
 
 ### PR 规范
 

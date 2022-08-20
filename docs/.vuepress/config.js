@@ -18,52 +18,45 @@ module.exports = {
         navbar: [
             {
                 text: '下载',
-                link: '/release/desktop/download'
+                link: '/download/xunkong'
             },
             {
                 text: '帮助',
-                link: '/help/desktop/'
-            },
-            {
-                text: '开发',
-                link: '/dev/'
+                link: '/help/xunkong/'
             }
         ],
 
         sidebar: {
-            '/release/': [
+            '/download/': [
                 {
-                    text: '主项目',
-                    collapsible: true,
+                    text: '下载',
                     children: [
-                        '/release/desktop/download',
-                        '/release/desktop/history/',
-                        '/release/desktop/history/stable',
-                        '/release/desktop/history/preview',
-                    ]
-                },
-                {
-                    text: '独立工具',
-                    collapsible: true,
-                    children: [
-                        '/release/tool/travel-notes-generator',
+                        '/download/xunkong',
+                        '/download/xunkong-widget',
+                        '/download/simple-launcher',
                     ]
                 }
             ],
             '/help/': [
                 {
-                    text: '帮助',
+                    text: '寻空',
                     collapsible: true,
                     children: [
-                        '/help/desktop/',
-                        '/help/desktop/account',
-                        '/help/desktop/dailynote',
-                        '/help/desktop/wishlog',
-                        '/help/desktop/travelnotes',
-                        '/help/desktop/spiralabyss',
-                        '/help/desktop/webtool',
-                        '/help/desktop/startgame',
-                        '/help/desktop/database-migration',
+                        '/help/xunkong/',
+                        '/help/xunkong/account',
+                        '/help/xunkong/wishlog',
+                        '/help/xunkong/achievement',
+                        '/help/xunkong/webtool',
+                        '/help/xunkong/startgame',
+                        '/help/xunkong/others',
+                    ]
+                },
+                {
+                    text: '其他',
+                    collapsible: true,
+                    children: [
+                        '/download/xunkong-widget',
+                        '/download/simple-launcher',
                     ]
                 }
             ]
