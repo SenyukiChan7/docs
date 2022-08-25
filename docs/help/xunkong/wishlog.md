@@ -39,7 +39,9 @@
 
 获取到网址后，会把该网址复制到剪贴板，出现了异常情况，也可以通过输入网址获取记录。
 
-设置系统代理时可能会被安全软件拦截，提示系统代理设置失败，这时需要在[代理设置](ms-settings:network-proxy)手动修改代理的 IP 地址为 `http=localhost:10086;https=localhost:10086`。
+设置系统代理时可能会被安全软件拦截，提示系统代理设置失败，这时需要在[代理设置](ms-settings:network-proxy)手动修改代理的 IP 地址为 `http=localhost:10086;https=localhost:10086`，端口为空。
+
+![set-proxy](./img/img-wishlog-set-proxy.webp)
 
 ## 云备份
 
