@@ -4,6 +4,10 @@
 > 
 > 如果没找到帮助文档中的功能，请 [更新至最新版本](ms-windows-store://pdp/?productid=9N2SVG0JMT12) 。
 
+::: tip 提示
+帮助页面已长时间未更新，部分内容滞后于应用的实际功能，查看 [更新记录](https://github.com/xunkong/xunkong/releases) 获取最新信息。
+:::
+
 寻空仅支持 Windows 10 1809 及以上版本（最低版本出自微软文档，可靠性未知），建议升级到最新版以避免可能出现的各种问题。
 
 ## 准备
