@@ -1,4 +1,4 @@
-![寻空](/images/logo.640.webp)
+![寻空](./img/img-xunkong-logo.webp)
 
 # 寻空
 
