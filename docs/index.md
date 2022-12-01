@@ -3,7 +3,7 @@ home: true
 title: 首页
 heroText: 寻空
 heroImage: /images/logo.640.webp
-tagline: Scighost 的原神工具箱
+tagline: 记录旅途中发生的事
 actions:
     - text: 下载
       link: /download/xunkong

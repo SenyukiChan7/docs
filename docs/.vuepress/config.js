@@ -23,6 +23,10 @@ module.exports = {
             {
                 text: '帮助',
                 link: '/help/xunkong/'
+            },
+            {
+                text: '赞助',
+                link: '/donate/'
             }
         ],
 
