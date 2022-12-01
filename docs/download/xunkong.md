@@ -1,8 +1,8 @@
-![寻空](./img/img-xunkong-logo.webp)
+![寻空](/images/logo.640.webp)
 
 # 寻空
 
-> Scighost 的原神工具箱，带给旅行者们方便与乐趣。
+> 记录旅途中发生的事
 
 ## 环境要求
 
@@ -10,7 +10,7 @@
 
 ## 安装
 
-商店版和侧载版可以共存，但是因为公用一个数据库，二者版本不同时可能存在冲突。
+商店版和侧载版可以共存，但是因为共用一个数据库，二者版本不同时可能存在冲突。
 
 不建议同时安装商店版和侧载版，在进行某些操作时会频繁弹窗影响体验。
 
@@ -18,7 +18,7 @@
 
 <br />
 <a href="ms-windows-store://pdp/?productid=9N2SVG0JMT12">
-    <img src="https://getbadgecdn.azureedge.net/images/en-us%20dark.svg" height="100" />
+    <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="100" />
 </a>
 
 [商店页面](https://www.microsoft.com/store/apps/9N2SVG0JMT12)
