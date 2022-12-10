@@ -16,7 +16,7 @@
 
 > 需要的是访问 `https://bbs.mihoyo.com/ys/` 页面时发送的 Cookie（复制 Header 中的内容即可）
 
-- 把右侧的文字拖入浏览器书签栏 <a href="javascript:(()=>{if(location.host.includes('bbs.mihoyo.com')){var cookie=document.cookie;navigator.clipboard.writeText(cookie);alert('Cookie 已复制到剪贴板')}else{alert('当前网页不为米游社页面')}})();">获取米游社 Cookie</a>
+- 把右侧的文字拖入浏览器书签栏 <a href="javascript:(()=>{if(location.host.includes('www.miyoushe.com') || location.host.includes('bbs.mihoyo.com')){var cookie=document.cookie;navigator.clipboard.writeText(cookie);alert('Cookie 已复制到剪贴板')}else{alert('当前网页不为米游社页面')}})();">获取米游社 Cookie</a>
 - 使用浏览器的**无痕模式**打开 [米游社·原神](https://bbs.mihoyo.com/ys/)页面
 - 登录您需要添加到寻空中的账号
 - 点击之前添加的书签，此时 Cookie 已被复制到剪贴板
@@ -46,7 +46,7 @@
 
 ``` js
 javascript: (() => {
-    if (location.host.includes('bbs.mihoyo.com')) {
+    if (location.host.includes('www.miyoushe.com') || location.host.includes('bbs.mihoyo.com')) {
         var cookie = document.cookie;
         navigator.clipboard.writeText(cookie);
         alert('Cookie 已复制到剪贴板');
