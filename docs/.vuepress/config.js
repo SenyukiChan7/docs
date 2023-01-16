@@ -53,6 +53,8 @@ module.exports = {
                         '/help/xunkong/webtool',
                         '/help/xunkong/startgame',
                         '/help/xunkong/others',
+                        '/help/xunkong/problem',
+                        '/help/xunkong/tips',
                     ]
                 },
                 {
