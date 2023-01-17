@@ -8,13 +8,20 @@
 
 去用商店版
 
+### GitHub 和微软商店无法打开
+
+这里有两个备用下载链接，仅支持 x64 CPU 架构。
+
+https://file.xunkong.cc/download/Xunkong.Desktop.Package_latest_x64.msixbundle    
+https://file.xunkong.cc/download/Xunkong.Desktop.Package_latest_x64.zip
+
 ### 实时便笺出现 Please login (10001)
 
 重新登陆账号
 
 ### 实时便笺出现 (1037)
 
-v1.3.0 前：打开一次 米游社->旅行工具->原神战绩
+v1.3.0 前：打开一次 米游社->旅行工具->原神战绩    
 v1.3.0 及以后：点击**验证账号**
 
 ### 获取祈愿记录时出现 authkey timeout
