@@ -27,7 +27,7 @@ v1.3.0 及以后：点击**验证账号**
 ### 获取祈愿记录时出现 authkey timeout
 
 在游戏内打开祈愿历史记录页面一次    
-若仍出现问题，在 设置页面->启动游戏 指定 exe 文件路径
+若仍出现问题，删除游戏目录 `Genshin Impact Game\YuanShen_Data\webCaches\Cache\Cache_Data` 中的所有文件
 
 ### 所有页面都是白屏
 
